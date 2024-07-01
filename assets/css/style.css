@@ -1,0 +1,36 @@
+body {
+    padding-top: 56px; /* Ajuste para el navbar fijo */
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+
+.navbar {
+    transition: background-color 0.5s;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 80vh; /* Ajusta la altura de las imágenes del carrusel */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
