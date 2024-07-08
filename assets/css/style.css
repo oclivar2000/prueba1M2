@@ -34,3 +34,7 @@ body {
 .carousel-indicators [data-bs-target] {
     background-color: #000;
 }
+
+.text-justify{
+    text-align: justify;
+}
