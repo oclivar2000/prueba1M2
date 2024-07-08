@@ -38,3 +38,7 @@ body {
 .text-justify{
     text-align: justify;
 }
+
+#destacados img {
+    height: 150px;
+}
